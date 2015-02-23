@@ -1,0 +1,21 @@
+# this is for white space
+
+# handling
+
+
+	memorySize(1GB)
+numOfCores(  2  )  #		command
+cacheLineSize(512B)
+cacheSize(2KB)
+cacheAccessSpeed(2ns)
+
+# another line
+replacementSpeed(1ns)	# here
+broadcastSpeed(2ns)
+         memoryAccessSpeed(20ns)
+write(0,	0x4800,8B)
+read(1,        0x2400,1KB)
+read(1,0x3700,512B)
+
+		read(0,0x3600,16B)
+write(1,0x3700,16B)
